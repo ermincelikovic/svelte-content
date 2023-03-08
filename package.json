@@ -1,24 +1,16 @@
 {
-	"name": "jyc-starter-kit",
-	"private": true,
-	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev",
-		"lint": "turbo run lint",
-		"format": "prettier --write .",
-		"up-dep": "npx npm-check-updates -ws -u -p pnpm"
-	},
-	"devDependencies": {
-		"eslint-config-custom": "workspace:*",
-		"turbo": "1.8.2"
-	},
-	"workspaces": {
-		"packages": [
-			"demo",
-			"library"
-		]
-	},
-	"volta": {
-		"node": "18.14.2"
-	}
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-svelte": "^2.7.0",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@7.15.0"
 }
