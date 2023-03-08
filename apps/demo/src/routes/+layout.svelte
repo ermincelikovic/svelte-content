@@ -1,7 +1,10 @@
 <script>
 	import Header from './Header.svelte';
+	import { SvelteContent } from 'svelte-content';
 	import './styles.css';
 </script>
+
+<SvelteContent />
 
 <div class="app">
 	<Header />
