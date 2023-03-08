@@ -1,6 +1,6 @@
 {
   "name": "svelte-content",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Drop-In Content Management Library for Svelte",
   "main": "index.js",
   "scripts": {
